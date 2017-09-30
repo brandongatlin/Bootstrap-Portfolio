@@ -244,6 +244,8 @@ footer {
 
 .picrow {
     height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #picbox1 {
@@ -266,4 +268,8 @@ footer {
     height: 165px;
     width: 240px;
     padding: 5px;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
