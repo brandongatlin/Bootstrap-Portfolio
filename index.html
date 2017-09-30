@@ -7,7 +7,7 @@
     <title>About</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <script src="https://use.fontawesome.com/b0104e91a4.js"></script>
     <style>
 
@@ -15,79 +15,65 @@
 </head>
 
 <body>
-    <container>
-        <div class="row">
-            <page-header>
-                <h1>Brandon Gatlin</h1>
-                <nav class="navbar-static-right">
-                    <ul id="navlist">
-                        <li id="about" class="navlink"><a href="index.html">about</li>
-                        <li id="portfolio" class="navlink"><a href="portfolio.html">portfolio</li>
-                        <li id="contact" class="navlink"><a href="contact.html">contact</li>
-                    </ul>
-                </nav>
-            </page-header>
-
+    <container-fluid>
+        <div id="row-1" class="row">
+                <page-header id="header-text">
+                    <h1>Brandon Gatlin</h1>
+                    
+                    <nav class="navbar-static-right">
+                        <ul id="nav-list" class="list-group">
+                            <li id="about" class="navlink"><a href="index.html">about</li>
+                            <li id="portfolio" class="navlink"><a href="portfolio.html">portfolio</li>
+                            <li id="contact" class="navlink"><a href="contact.html">contact</li>
+                        </ul>
+                    </nav>
+                </page-header>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <container>
-                <h2>About Me</h2><hr>
-                <p>
-                    My name is Brandon and I am a Spanish Teacher. I've attended the universities of Auburn, Salamanca, Costa Rica and Alacalá de Henares, where I earned my master's in Bilingual Education.
-                </p>
-                <p>
-                    I've been teaching Spanish for 4 years now, and have taught in both Alabama and Texas.
-                </p>
-                <p>
-                    Currently, I am teaching Spanish but would like to transition into web design where I can use my creative talents to help clients manage their web presence.
-                </p>
-                </container>          
-            </div>
+        
+        
+        <div id="row-2" class="row">
+            <container id="main-content">    
+                <div id="col-1" class="col-md-8">
+                    <container id="about-me-box">
+                    <h2>About Me</h2><hr>
+                    <img src="assets/images/profile.jpg" id="profile-pic" class="img-responsive" alt="profile pic">
+                    <p>
+                        My name is Brandon and I am a Spanish Teacher. I've attended the universities of Auburn, Salamanca, Costa Rica and Alacalá de Henares, where I earned my master's in Bilingual Education.
+                    </p>
+                    <p>
+                        I've been teaching Spanish for 4 years now, and have taught in both Alabama and Texas.
+                    </p>
+                    <p>
+                        Currently, I am teaching Spanish but would like to transition into web design where I can use my creative talents to help clients manage their web presence.
+                    </p>
+                    </container>          
+                </div>
             
-            <div class="col-md-4">
-                <container>
-                <h2>Connect With Me</h2>
-                    <div id="github" class="socialicon "><i class="fa fa-github-alt" aria-hidden="true"></i>
-                    </div>
-                    <div id="linked" class="socialicon "><i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </div>
-                    <div id="stack" class="socialicon "><i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                </container>
-            </div>
+                <div id="col-2" class="col-md-4">
+                    <container id="aside">
+                        <h2>Connect With Me</h2><hr>
+                            <div id="github" class="socialicon "><i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </div>
+                            <div id="linked" class="socialicon "><i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                            <div id="stack" class="socialicon "><i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </container>
+                </div>
+            </container>
         </div>
 
-        <div class="row">
-            <footer>
-                <p>copyright 2017 Brandon Gatlin</p>
-            </footer>
+        <div id="row-3" class="row">
+            <div>
+                <p id="footer-text">copyright 2017 Brandon Gatlin</p>
+            </div>
         </div>
+    </container-fluid>
+
+        
         
 
 
-            
 
-
-
-    
-                            
-                            
-
-
-
-            
-                    
-                    
-
-
-
-
-
-
-        <div>
-        </div>
-    </footer>
-</container>
 </body>
 
 </html>
