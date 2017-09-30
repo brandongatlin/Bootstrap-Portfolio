@@ -1,13 +1,19 @@
-.container {
+.container-fluid {
+    padding: 25px;
+}
+
+.header-container {
+    width: 900px;
+    margin: auto;
 }
 
 #row-1-container {
-	width: 600px;
-	background-color: blue;
+    width: 600px;
+    background-color: blue;
 }
 
 #row-1 {
-	background-color: green;
+    background-color: white;
 }
 
 #row-2 {
@@ -16,78 +22,91 @@
 }
 
 #row-3 {
-	background-color: orange;
-	clear: both;
+    background-color: white;
 }
 
-#main-content: {
-	margin: auto;
-}
-
-.container-fluid {
-}
+#main-content: {}
 
 .list-group {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #nav-list {
-	float: right;
+    float: right;
 }
 
 #about {
-	float: left;
+    float: left;
 }
 
 #portfolio {
-	float: left;
+    float: left;
 }
 
 #contact {
-	float: left;
+    float: left;
 }
 
-#aside {
-	background-color: yellow;
-	float: left;
-	border: 1px;
-	border-style: solid;
-	border-color: black;
-	width: 270px;
+aside {
+    background-color: white;
+    float: left;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 270px;
+    height: 150px;
 }
 
 #about-me-box {
-	float: right;
-	width: 600px;
-	border: 1px;
-	border-style: solid;
-	border-color: black;
-	background-color: white;
-	
+    float: right;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    padding: 25px;
 }
 
 hr {
-	width: 90%;
+    width: 90%;
+}
+
+#social-box {
+	width: 200px;
+	margin: auto;
 }
 
 #profile-pic {
-	height: 180px;
-	width: 150px;
-	float: left;
+    height: 137px;
+    width: 95px;
+    float: left;
+    padding-right: 10px;
 }
 
 .socialicon {
-	float: left;
+    float: left;
+    width: 33.33%;
 }
 
-#footer-row {
-	clear: both;
+#github {
+
 }
+
 
 #footer-text {
-	text-align: center;
+    text-align: center;
 }
 
-footer {
-	clear: both;
+
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+	
 }
