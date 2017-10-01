@@ -96,6 +96,10 @@ hr {
     color: orange;
 }
 
+#stupid-box {
+    background-color: white;
+}
+
 #stack {
     color: orange;
 }
@@ -109,8 +113,18 @@ hr {
     margin-top: 15px;
 }
 
+h2 {
+    color: #63a8a4;
+}
+
 p {
     color: black;
+}
+
+.thumbnails {
+    width: 250px;
+    height: 250px;
+    float: left;
 }
 
 
@@ -123,12 +137,27 @@ p {
         width: 400px;
     }
 
+    #stupid-box {
+        width: 400px;
+
+    }
+
     .navbar-static-right {
     }
 
     .header-container {
         width: 400px;
     }
+
+    .thumbnails {
+    width: 250px;
+    height: 250px;
+    }
+
+
+
+
+
 }
 @media(min-width:768px){
 
