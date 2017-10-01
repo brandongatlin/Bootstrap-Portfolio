@@ -2,14 +2,8 @@
     padding: 25px;
 }
 
-.header-container {
-    width: 900px;
-    margin: auto;
-}
-
 #header-text {
     background-color: #63a8a4;
-    color: #ffffff;
 }
 
 #row-1-container {
@@ -23,25 +17,26 @@
 
 #row-2 {
     background-image: url("../images/sandpaper/sandpaper.png");
-    padding: 25px;
 }
 
 #row-3 {
     background-color: white;
 }
 
-#main-content: {}
+#col-1 {
+        background-color: pink;
+}
+
+#col-5 {
+            background-color: pink;
+
+}
 
 .list-group {
     list-style-type: none;
 }
 
-#nav-list {
-    float: right;
-}
-
 #about {
-    float: left;
 }
 
 #portfolio {
@@ -54,21 +49,26 @@
 
 aside {
     background-color: white;
-    color: #63a8a4;
+    float: left;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
     width: 270px;
     height: 150px;
 }
 
 #about-me-box {
+    float: right;
     width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
     background-color: white;
     padding: 25px;
-    color: #63a8a4;
-
 }
 
 hr {
-    width: 95%;
+    width: 90%;
 }
 
 #social-box {
@@ -88,16 +88,8 @@ hr {
     width: 33.33%;
 }
 
-#linked {
-    color: orange;
-}
-
 #github {
-    color: orange;
-}
 
-#stack {
-    color: orange;
 }
 
 
@@ -105,30 +97,9 @@ hr {
     text-align: center;
 }
 
-#nav-list {
-    margin-top: 15px;
-}
-
-p {
-    color: black;
-}
-
 
 @media(max-width:767px){
-    .list-group {
-        list-style-type: inline;
-    }
-    
-    #about-me-box {
-        width: 400px;
-    }
 
-    .navbar-static-right {
-    }
-
-    .header-container {
-        width: 400px;
-    }
 }
 @media(min-width:768px){
 
